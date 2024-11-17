@@ -4,7 +4,7 @@ CLI Musci Player
 Usage
 ```
 climp -a <file>
-climp -a <file> -d 1
+climp -a <file> -d
 ```
 
 First usage
@@ -27,8 +27,8 @@ Artist -- "Djevel"
 Usage: climp [OPTIONS] --audio <AUDIO>
 
 Options:
-  -a, --audio <AUDIO>    
-  -d, --design <DESIGN>  [default: 0]
-  -h, --help             Print help
-  -V, --version          Print version
+  -a, --audio <AUDIO>  
+  -d, --design         
+  -h, --help           Print help
+  -V, --version        Print version
 ```
