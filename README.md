@@ -1,5 +1,5 @@
 # climp
-CLI Musci Player
+CLI Music Player
 
 ## Usage
 
