@@ -3,7 +3,7 @@ CLI Music Player
 
 ## Usage
 
-Now you can save the audio file to a playlist(~/.config/climp) and play it from there.
+Now you can save the audio file to a playlist`(~/.config/climp)` and play it from there.
 Play the audio file with the flag `-s` to copy it to the playlist.
 
 ```
