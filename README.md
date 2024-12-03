@@ -1,13 +1,16 @@
 # climp
 CLI Musci Player
 
-Usage
+## Usage
+
+Now you can save the audio file to a playlist(~/.config/climp) and play it from there.
+Play the audio file with the flag `-s` to copy it to the playlist.
+
 ```
-climp -a <file>
-climp -a <file> -d
+climp (-c or -p) <file>
 ```
 
-First usage
+### With no -d
 ```
 Title: "Mitt Tempel Av Stierner Og Brennende Maaner"|(7.6splat mins)
 Artist: "Djevel"
@@ -15,7 +18,7 @@ Album: "Naa Skrider Natten Sort"
 Year: 2022
 ```
 
-Second usage
+### With -d
 ```
  Title -- "Mitt Tempel Av Stierner Og Brennende Maaner" -- 7.6splat mins
 Artist -- "Djevel"
@@ -24,11 +27,16 @@ Artist -- "Djevel"
 ```
 
 ```
-Usage: climp [OPTIONS] --audio <AUDIO>
+Usage: climp [OPTIONS] --track <TRACK>
 
 Options:
-  -a, --audio <AUDIO>  
-  -d, --design         
+  -t, --track <TRACK>  Choose audio file
+  -c, --current        Choose audio from current directory
+  -p, --playlist       Choose track from playlist
+  -d, --design         1/2 design
+  -s, --save           Save track to playlist
   -h, --help           Print help
-  -V, --version        Print version
 ```
+
+I plan to make it possible to rename a file when saving it to a playlist. 
+It's easy to do, it will be soon.
