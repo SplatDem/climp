@@ -37,6 +37,3 @@ Options:
   -s, --save           Save track to playlist
   -h, --help           Print help
 ```
-
-I plan to make it possible to rename a file when saving it to a playlist. 
-It's easy to do, it will be soon.
